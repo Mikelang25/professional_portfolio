@@ -1,0 +1,105 @@
+
+body{
+  overflow-y: scroll;
+  background-size: cover;
+  background-image: url("/public/sky.jpg");
+}
+
+.img-linkedin{
+  margin-right:10px;
+  margin-left:15px;
+}
+
+.linkedin{
+  text-decoration: none!important;
+  font-family: 'Bree Serif', serif;
+  color:white;
+}
+
+.site-container{
+  padding-top:20px;
+}
+
+
+
+.nav{
+  display: inline-block;
+  padding:10px;
+  background-color: white;
+  border-radius: 10px;
+  color:black;
+  width:15%;
+  margin-right:10px;
+  font-family: 'Bree Serif', serif;
+  border: 3pt solid grey;
+}
+
+.nav-left{
+  margin-top:20px;
+}
+
+.nav:hover{
+  background-color: black;
+  color:white;
+}
+
+.space-container{
+  height:50px;
+}
+
+.footer{
+    margin-top:20px;
+    position: fixed;
+    border-top: 1pt solid whitesmoke;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: right;
+    padding:15px;
+}
+
+.icons-footer{
+  color: white;
+  text-decoration: none !important;
+  font-family: 'Vollkorn', serif;
+}
+
+
+@media only screen and (max-width: 640px)  {
+  
+  .nav{
+    width:30%
+  }
+
+  .main-content{
+    margin-bottom:20px;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px)  {
+  
+  .nav{
+    width:30%
+  }
+
+  .main-content{
+    margin-bottom:20px;
+  }
+
+
+}
+
+@media only screen and (max-width: 1100px)  {
+  
+  .nav{
+    width:30%
+  }
+
+  .main-content{
+    margin-bottom:20px;
+  }
+
+}
